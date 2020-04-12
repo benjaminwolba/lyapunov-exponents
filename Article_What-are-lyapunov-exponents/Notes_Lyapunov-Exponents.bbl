@@ -1,0 +1,49 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Strogatz1994}{book}{}
+      \name{author}{1}{}{%
+        {{hash=68fade108c3a43705e86ba210a516cf9}{%
+           family={Strogatz},
+           familyi={S\bibinitperiod},
+           given={Steven\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Perseus Books Publishing}%
+      }
+      \strng{namehash}{68fade108c3a43705e86ba210a516cf9}
+      \strng{fullhash}{68fade108c3a43705e86ba210a516cf9}
+      \strng{bibnamehash}{68fade108c3a43705e86ba210a516cf9}
+      \strng{authorbibnamehash}{68fade108c3a43705e86ba210a516cf9}
+      \strng{authornamehash}{68fade108c3a43705e86ba210a516cf9}
+      \strng{authorfullhash}{68fade108c3a43705e86ba210a516cf9}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nonlinear Dynamics and Chaos}
+      \field{year}{1994}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

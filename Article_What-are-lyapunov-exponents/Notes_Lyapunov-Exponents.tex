@@ -1,0 +1,54 @@
+%-------------------------------------------------------------------------
+%	Chaos and Quantum Chaos, Benjamin Wolba
+%-------------------------------------------------------------------------
+
+\documentclass{article}
+
+\addbibresource{Ref_Lyapunov.bib} 										    % integration of .bib-file
+
+\title{Notes on Lyapunov Exponents}  
+\author{Benjamin Wolba}
+
+
+\begin{document}
+
+\maketitle
+
+
+\section{Introduction}
+
+Lyapunov exponents aim to quantify the term "'\textbf{sensitive dependence of initial conditions}"'. Lets imagine two trajectories in phase space $\vec{x}(t)$ and $\vec{x}(t) + \vec{\delta}(t)$ that are initially separated by a tiny amount $|\vec{\delta}(0)| = 10^{-15}$, which is of the order of floating-point precision. \\
+\indent Sensitive dependence on initial conditions means, that neighboring trajectories separate exponentially fast
+%
+\begin{equation}
+|\vec{\delta}(t)| \approx |\vec{\delta}(0)| \, e^{\lambda t} 
+\label{expincrease}
+\end{equation}
+%
+given a positive \textbf{Lyapunov exponent} $\lambda$. The Lyapunov exponents sets the \textbf{time horizon} beyond which our predictions break down: Suppose the distance $a$ indicates our tolerance, i.e. the accuracy of our measurement equipment, so that if a measurement is within $a$, we consider it acceptable. The prediction becomes inaccurate for $|\vec{\delta}(t)| > a$, which happens after the time
+%
+\begin{equation}
+t = \frac{1}{\lambda} \ln \left( \frac{a}{|\vec{\delta}(0)|} \right)
+\label{timehorizon}
+\end{equation}
+% 
+So even if we increase our accuracy and lower $|\vec{\delta}(0)|$ tremendously, our time horizon expands only by a couple of $1/\lambda$. \\
+\indent This treatment so far has closely followed Strogatz book (\cite[chapter 9.3]{Strogatz1994}), which also points out a more rigorous definition of Lyapunov exponents. On the one hand the strength of exponential divergence varies somewhat along a trajectory, thus $\lambda$ should be average over various points. On the other hand for a $n$-dimensional phase space there are actually \textbf{$n$ different Lyapunov exponents}: Every point in phase space can be decomposed into $n$ different expanding or contracting directions featuring a distinct Lyapunov exponent $\lambda_k$ with $k = 1, \dots, n$. \\
+
+
+
+\section{The Intuitive Approach}
+
+
+
+\section{Gram-Schmidt Method}
+
+
+
+
+% References
+\nocite{*}
+\printbibliography
+
+
+\end{document}

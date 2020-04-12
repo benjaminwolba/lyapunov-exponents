@@ -1,0 +1,66 @@
+% Encoding: windows-1252
+
+@Book{Strogatz1994,
+  title     = {Nonlinear Dynamics and Chaos},
+  publisher = {Perseus Books Publishing},
+  year      = {1994},
+  author    = {Steven H. Strogatz},
+}
+
+@Book{Stoeckmann1999,
+  title     = {Quantum Chaos},
+  publisher = {Cambridge University Press},
+  year      = {1999},
+  author    = {Hans-J{\"u}rgen St{\"o}ckmann},
+}
+
+@Book{Gutzwiller1991,
+  title     = {Chaos in Classical and Quantum Mechanics},
+  publisher = {Springer-Verlag New York},
+  year      = {1991},
+  author    = {Martin C. Gutzwiller},
+}
+
+@Book{Almeida1990,
+  title     = {Hamiltonian Systems: Chaos and Quantization},
+  publisher = {Cambridge University Press},
+  year      = {1990},
+  author    = {Alfredo M. Ozorio de Almeida},
+}
+
+@Book{Tabor1989,
+  title     = {Chaos and Integrability in Nonlinear Dynamics: An Introduction},
+  publisher = {Wiley-Interscience},
+  year      = {1989},
+  author    = {Michael Tabor},
+}
+
+@Book{Lichtenberg1992,
+  title     = {Regular and Chaotic Dynamics},
+  publisher = {Springer-Verlag New York},
+  year      = {1992},
+  author    = {Allan Lichtenberg and Michael Lieberman},
+}
+
+@Book{Arrowsmith1992,
+  title     = {Dynamical Systems: differential equations, maps and chaotic behaviour},
+  publisher = {Routledge},
+  year      = {1992},
+  author    = {D. K. Arrowsmith and C. M. Place},
+}
+
+@Book{Schuster1991,
+  title     = {Nonlinear Dynamics and Neuronal Networks},
+  publisher = {Wiley-VCH},
+  year      = {1991},
+  editor    = {Heinz Georg Schuster},
+}
+
+@Book{Ott2002,
+  title     = {Chaos in Dynamical Systems},
+  publisher = {Cambridge University Press},
+  year      = {2002},
+  author    = {Edward Ott},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

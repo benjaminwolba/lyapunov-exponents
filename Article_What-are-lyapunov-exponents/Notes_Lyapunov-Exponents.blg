@@ -1,0 +1,15 @@
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'Notes_Lyapunov-Exponents.blg'
+[21] biber:313> INFO - === So Apr 12, 2020, 10:10:30
+[38] Biber.pm:371> INFO - Reading 'Notes_Lyapunov-Exponents.bcf'
+[84] Biber.pm:854> INFO - Using all citekeys in bib section 0
+[95] Biber.pm:3981> INFO - Processing section 0
+[105] Biber.pm:4154> INFO - Looking for bibtex format file 'Ref_Lyapunov.bib' for section 0
+[105] bibtex.pm:1468> INFO - LaTeX decoding ...
+[107] bibtex.pm:1294> INFO - Found BibTeX data source 'Ref_Lyapunov.bib'
+[117] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[117] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[117] Biber.pm:3809> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[117] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[118] bbl.pm:617> INFO - Writing 'Notes_Lyapunov-Exponents.bbl' with encoding 'UTF-8'
+[119] bbl.pm:720> INFO - Output to Notes_Lyapunov-Exponents.bbl
